@@ -642,7 +642,7 @@ height: 300px;
    
  }
 }
-/* media  */
+/* media  tablet */
 @media screen and (max-width:920px){
     header{
         padding: 0;
