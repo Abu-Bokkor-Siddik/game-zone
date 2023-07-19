@@ -90,6 +90,7 @@ button>#tiktok{
     color: #000000;
 }
 .button1{
+    display: flex;
     padding: 17px 24px;
 
     border-radius: 8px;
@@ -522,7 +523,11 @@ margin-top: 30px;
 
 
 
+/* tempo */
 
+.ami{
+    display: block;
+}
 
 
 
@@ -530,32 +535,94 @@ margin-top: 30px;
 
 /* media */
 
-/* @media screen and (max-width:576px){
-html{
-    font-size: 50%;
-}
-    .nav1,.navul{
-        flex-direction: column;
+@media screen and (max-width:576px){
+    header{
         padding: 0;
+    }
+    .nav1{
+        flex-direction: column;
+       padding-left: 300px;
+        /* justify-content: center; */
+    }
+    .navul{
+        flex-direction: column;
+        padding-left: 100px;
+        padding-top: 50px;
     }
     .mainsection{
 
         flex-direction: column-reverse;
-        padding: 0;
+    margin-top: 350px;
+
 
     }
     .img2{
-        max-width: 635px;
-    max-height: 700px;
+        max-width: 600px;
+    max-height: 650px;
     border: 3px solid red;
-
+    margin-left: -150px;
+  
+    
+    
     }
+    .sectiondiv{
+        max-width: 600px;
+    max-height: 650px;
+    border: 3px solid red;
+    margin-left: 350px;
+    }
+    .divmain00{
+        
+        font-size: 30px;
+   margin: 0px 0px 0px 100px;
+        
+    }
+    .cardcontenar{
+        grid-template-columns: repeat(1,1fr);
+        margin-right: 300px;
+    }
+    .sectionmain{
+        flex-direction: column;
+    }
+ .sectionmain1{
+width: 400px;
+height: 300px;
+    border: 3px solid red;
+    margin-left: -110px;
+    margin-top: 800px;
+    padding:0px;
+    margin-right: 0px;
+ }
 
 
+ .sectionmainh1{
+    margin: 0px;
+ }
+ .sectionmainp{
+    border: 3px solid red;
+    padding-bottom: 20px;
+ }
+ .sectionmainimg{
+    margin-top: -150px;
+    margin-left: -110px;
+ }
 
+ .sectionlastdiv{
+ flex-wrap: wrap;
+ flex-shrink: 0;
+ }
+ .sectionflexdiv{
+    flex-wrap: wrap;
+    flex-shrink: 0;
 
+    margin-left: 240px;
 
-
-
-
-} */
+    
+ }
+ .buttonlast{
+    margin-left: 30px;
+ }
+ .footerdiv{
+    margin-left: 100px;
+ }
+}
