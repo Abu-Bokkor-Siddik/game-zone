@@ -460,7 +460,7 @@ color: #FFF;
 .footer2{
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 50px;
 }
 .pass{
 
@@ -476,7 +476,7 @@ line-height: normal;
 .footer3{
 
     margin-top: 66px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -538,6 +538,8 @@ margin-top: 30px;
 @media screen and (max-width:576px){
     header{
         padding: 0;
+        margin-left:0 ;
+        margin-right:0 ;
     }
     .nav1{
         flex-direction: column;
@@ -559,7 +561,7 @@ margin-top: 30px;
     .img2{
         max-width: 600px;
     max-height: 650px;
-    border: 3px solid red;
+    
     margin-left: -150px;
   
     
@@ -568,13 +570,13 @@ margin-top: 30px;
     .sectiondiv{
         max-width: 600px;
     max-height: 650px;
-    border: 3px solid red;
+    
     margin-left: 350px;
     }
     .divmain00{
         
         font-size: 30px;
-   margin: 0px 0px 0px 100px;
+   margin: 0px 0px 0px 220px;
         
     }
     .cardcontenar{
@@ -587,7 +589,7 @@ margin-top: 30px;
  .sectionmain1{
 width: 400px;
 height: 300px;
-    border: 3px solid red;
+   
     margin-left: -110px;
     margin-top: 800px;
     padding:0px;
@@ -599,7 +601,7 @@ height: 300px;
     margin: 0px;
  }
  .sectionmainp{
-    border: 3px solid red;
+    
     padding-bottom: 20px;
  }
  .sectionmainimg{
@@ -623,6 +625,18 @@ height: 300px;
     margin-left: 30px;
  }
  .footerdiv{
-    margin-left: 100px;
+    margin-left: 200px;
+ }
+ .footer2{
+    flex-wrap: wrap;
+    
+ }
+ .footer3{
+    flex-wrap: wrap;
+    
+ }
+ .footer4{
+    flex-wrap: wrap;
+   
  }
 }
