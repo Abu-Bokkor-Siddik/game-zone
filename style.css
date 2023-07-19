@@ -582,6 +582,7 @@ margin-top: 30px;
     .cardcontenar{
         grid-template-columns: repeat(1,1fr);
         margin-right: 300px;
+        margin-left: 300px;
     }
     .sectionmain{
         flex-direction: column;
@@ -625,7 +626,117 @@ height: 300px;
     margin-left: 30px;
  }
  .footerdiv{
-    margin-left: 200px;
+    
+    border: 3px solid rgb(153, 21, 103);
+ }
+ .footer2{
+    flex-wrap: wrap;
+    
+ }
+ .footer3{
+    flex-wrap: wrap;
+    
+ }
+ .footer4{
+    flex-wrap: wrap;
+   
+ }
+}
+/* media  */
+@media screen and (max-width:920px){
+    header{
+        padding: 0;
+        margin-left:0 ;
+        margin-right:0 ;
+    }
+    .nav1{
+        flex-direction: column;
+       padding-left: 300px;
+        /* justify-content: center; */
+    }
+    .navul{
+        flex-direction: column;
+        padding-left: 100px;
+        padding-top: 50px;
+    }
+    .mainsection{
+
+        flex-direction: column-reverse;
+    margin-top: 350px;
+
+
+    }
+    .img2{
+        max-width: 600px;
+    max-height: 650px;
+    
+    margin-left: -150px;
+  
+    
+    
+    }
+    .sectiondiv{
+        max-width: 600px;
+    max-height: 650px;
+    
+    margin-left: 350px;
+    }
+    .divmain00{
+        
+        font-size: 30px;
+   margin: 0px 0px 0px 220px;
+        
+    }
+    .cardcontenar{
+        grid-template-columns: repeat(1,1fr);
+        
+        margin-right: 300px;
+        margin-left: 400px;
+    }
+    .sectionmain{
+        flex-direction: column;
+    }
+ .sectionmain1{
+width: 400px;
+height: 300px;
+   
+    margin-left: -110px;
+    margin-top: 800px;
+    padding:0px;
+    margin-right: 0px;
+ }
+
+
+ .sectionmainh1{
+    margin: 0px;
+ }
+ .sectionmainp{
+    
+    padding-bottom: 20px;
+ }
+ .sectionmainimg{
+    margin-top: -150px;
+    margin-left: -110px;
+ }
+
+ .sectionlastdiv{
+ flex-wrap: wrap;
+ flex-shrink: 0;
+ }
+ .sectionflexdiv{
+    flex-wrap: wrap;
+    flex-shrink: 0;
+
+    margin-left: 240px;
+
+    
+ }
+ .buttonlast{
+    margin-left: 30px;
+ }
+ .footerdiv{
+    margin-left: 70px;
+    
  }
  .footer2{
     flex-wrap: wrap;
