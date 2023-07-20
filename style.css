@@ -276,6 +276,38 @@ padding: 17px 0px 40px 30px;
     grid-gap: 24px;
 }
 
+
+/* testing porposse */
+
+.diviconp{
+    position: absolute;
+    font-size: 3rem;
+    right: 565px;
+    /* top: 4px; */
+    bottom: -20px;
+    text-align: center;
+    /* display */
+    /* display: none; */
+
+}
+.icon{
+
+    color:black;
+    border: 5px solid rgb(58, 54, 54);
+    padding: 4px;
+    border-radius: 50%;
+    background: white;
+}
+
+.iconp{
+    color: #FF42A5;
+}
+.cardcontenar:hover .diviconp{
+display: block;
+
+}
+
+/* end */
 /* maindiv */
  
  
@@ -557,6 +589,12 @@ margin-top: 30px;
 
 
     }
+/* testing porpus */
+.diviconp{
+    display: none;
+}
+/* testing porpus */
+
     /* update */
     .mainh1{
         margin-left: -100px;
@@ -698,6 +736,16 @@ height: 300px;
 
 
     }
+
+
+
+    /* testing porpus */
+.diviconp{
+    display: none;
+}
+/* testing porpus */
+
+
     .mainh1{
         margin-left: -100px;
     }
