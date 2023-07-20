@@ -508,6 +508,7 @@ footer {
   .nav1 {
     flex-direction: column;
     padding-left: 300px;
+    
   }
   .navul {
     flex-direction: column;
@@ -586,6 +587,7 @@ footer {
   .sectionflexdiv {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
   }
   .buttonlast {
     margin-left: 30px;
