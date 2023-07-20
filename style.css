@@ -115,7 +115,7 @@ button>#tiktok{
     max-width: 100%;
     max-height: 700px;
     background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-    /* padding: 148px 240px; */
+  
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,7 +143,7 @@ button>#tiktok{
 .sectiondiv{
     max-width: 100%;
     max-height: 100%;
-    /* border: 3px solid red; */
+   
     padding-right: 50px;
     background: url('/images/Group 14.png');
     
@@ -207,7 +207,7 @@ padding: 17px 0px 40px 30px;
 .buttoncolor1{
     max-width: 155px;
     max-height: 65px;
-    /* border: 3px solid red; */
+  
     padding: 21px 40px;
     color: #FFF;
     font-family: Work Sans;
@@ -263,7 +263,7 @@ padding: 17px 0px 40px 30px;
 .maincard{
     max-width: 342px;
     max-height: 460px;
-/* text-align: center; */
+
 }
 
 /* cardcontenar */
@@ -277,17 +277,17 @@ padding: 17px 0px 40px 30px;
 }
 
 
-/* testing porposse */
+/* testing bonus */
 
 .diviconp{
     position: absolute;
     font-size: 3rem;
     right: 565px;
-    /* top: 4px; */
+   
     bottom: -20px;
     text-align: center;
-    /* display */
-    /* display: none; */
+   
+    display: none;
 
 }
 .icon{
@@ -304,6 +304,7 @@ padding: 17px 0px 40px 30px;
 }
 .cardcontenar:hover .diviconp{
 display: block;
+box-shadow: 1px 1px 200px  black;
 
 }
 
@@ -340,7 +341,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-align: center;
-/* margin-left: 700px; */
+
 }
 .mainp2{
     color: #534C64;
@@ -363,7 +364,7 @@ font-family: Work Sans;
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
-line-height: 60px; /* 125% */
+line-height: 60px; 
 }
 
 .sectionmainp{
@@ -373,7 +374,7 @@ font-family: Work Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 166.667% */
+line-height: 30px; 
 }
 
 /* sectionmain */
@@ -472,7 +473,7 @@ footer{
 }
 
 .footerimg{
-    width: 86.041px;
+width: 86.041px;
 height: 40px;
 }
 
@@ -575,7 +576,7 @@ margin-top: 30px;
     .nav1{
         flex-direction: column;
        padding-left: 300px;
-        /* justify-content: center; */
+       
     }
     .navul{
         flex-direction: column;
@@ -700,7 +701,7 @@ height: 300px;
     
  }
  .footer4{
-    /* flex-wrap: wrap; */
+   
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-left: 100px;
@@ -708,9 +709,7 @@ height: 300px;
   
    
  }
- /* .footer5{
-   
- } */
+ 
 }
 /* media  tablet */
 @media screen and (max-width:820px){
@@ -722,7 +721,7 @@ height: 300px;
     .nav1{
         flex-direction: column;
        padding-left: 300px;
-        /* justify-content: center; */
+       
     }
     .navul{
         flex-direction: column;
@@ -803,17 +802,13 @@ height: 300px;
  }
 
  .sectionlastdiv{
- /* flex-wrap: wrap;
- flex-shrink: 0; */
+ 
  /* update */
  display: grid;
  grid-template-columns: repeat(3,1fr);
  }
  .sectionflexdiv{
-    /* flex-wrap: wrap;
-    flex-shrink: 0;
-
-     */
+   
      margin-left: 240px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -827,7 +822,7 @@ height: 300px;
     margin-left: 30px;
  }
  .footerdiv{
-    /* margin-left: 70px; */
+   
     margin: 20px;
     
  }
