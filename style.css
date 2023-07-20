@@ -576,6 +576,7 @@ margin-top: 30px;
     max-height: 650px;
     
     margin-left: 350px;
+    margin-right: -200px;
     }
     
     .divmain00{
@@ -587,7 +588,8 @@ margin-top: 30px;
     .cardcontenar{
         grid-template-columns: repeat(1,1fr);
         position: relative;
-        right: 100px;
+        right: 10px;
+
         
     }
     .sectionmain{
@@ -620,17 +622,15 @@ height: 300px;
     margin-left: -120px;
   }
  .sectionlastdiv{
- /* flex-wrap: wrap;
- flex-shrink: 0; */
+ 
  display: grid;
  grid-template-columns: repeat(3,1fr);
  }
  .sectionflexdiv{
-    /* flex-wrap: wrap;
-    flex-shrink: 0; */
+   
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* margin-left: -140px; */
+   
 
     
  }
@@ -640,23 +640,22 @@ height: 300px;
  /* update */
  .footerdiv{
     
-    /* border: 3px solid rgb(153, 21, 103);
-    position: absolute;
-    right: -160px; */
+   
+    position: relative;
+    right: -60px;
     width: 680px;
     height: 750px;
-    margin-left: 0px;
-    margin-right: 50px;
+    
  }
  .footer2{
-    /* flex-wrap: wrap; */
+    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     
     
  }
  .footer3{
-    /* flex-wrap: wrap; */
+    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-left: 150px;
@@ -699,6 +698,9 @@ height: 300px;
 
 
     }
+    .mainh1{
+        margin-left: -100px;
+    }
     .img2{
         max-width: 600px;
     max-height: 650px;
@@ -711,8 +713,8 @@ height: 300px;
     .sectiondiv{
         max-width: 600px;
     max-height: 650px;
-    
-    margin-left: 350px;
+    /* update */
+    margin-left: 110px;
     }
     .divmain00{
         
@@ -724,7 +726,7 @@ height: 300px;
         grid-template-columns: repeat(1,1fr);
         
         margin-right: 300px;
-        margin-left: 400px;
+        margin-left: 300px;
     }
     .sectionmain{
         flex-direction: column;
@@ -753,22 +755,32 @@ height: 300px;
  }
 
  .sectionlastdiv{
- flex-wrap: wrap;
- flex-shrink: 0;
+ /* flex-wrap: wrap;
+ flex-shrink: 0; */
+ /* update */
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
  }
  .sectionflexdiv{
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;
     flex-shrink: 0;
 
-    margin-left: 240px;
+     */
+     margin-left: 240px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 
     
  }
+ .sectionlast{
+    margin-left: -120px;
+  }
  .buttonlast{
     margin-left: 30px;
  }
  .footerdiv{
-    margin-left: 70px;
+    /* margin-left: 70px; */
+    margin: 20px;
     
  }
  .footer2{
